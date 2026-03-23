@@ -1,0 +1,18 @@
+#include <stdio.h>
+int x = 10;   
+void show() {
+    int y = 5;   
+    printf("Inside function:\n");
+    printf("Global x = %d\n", x);
+    printf("Local y = %d\n", y);
+}
+int main() {
+    show();
+
+    printf("\nInside main:\n");
+    printf("Global x = %d\n", x);
+
+    
+
+    return 0;
+}
